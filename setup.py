@@ -1,0 +1,25 @@
+setup(
+    name='mozio-commons',
+	    version='0.0.49',
+		    packages=find_packages(),
+			    include_package_data=True,
+				    license='BSD License',
+					    description='Mozio common libraries',
+						    long_description=README,
+							    url='https://www.mozio.com/',
+								    author='Santiago Romero',
+									    author_email='s.romero@mozio.com',
+										    classifiers=[
+											        'Environment :: Web Environment',
+													        'Framework :: Django',
+															        'Framework :: Django :: 1.9',
+																	        'Intended Audience :: Developers',
+																			        'License :: OSI Approved :: BSD License',
+																					        'Operating System :: OS Independent',
+																							        'Programming Language :: Python',
+																									        'Programming Language :: Python :: 2.7',
+																											        'Topic :: Software Development :: Libraries',
+																													    ],
+																														    install_requires=install_requires,
+																															)
+																															
