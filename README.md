@@ -1,1 +1,2 @@
 # version-updater-test
+test
